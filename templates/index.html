@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Website Detection using Machine Learning</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>  
+<body>
+    <h1>PHISHING URL DETECTOR</h1>
+    <form name="form", method="POST", style="text-align: center;">
+        <input type="url" class="input-search" id="input-search" name="url" value="https://"/>
+        <label class="search" for="input-search">
+        </label>
+        
+        <br><br>
+        <button value="Submit" id="text" class="button" role="button">Predict</button>
+    </form>
+    <p style="text-align: center;">{{ output }}</p>
+</body>
+</html>
